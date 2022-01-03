@@ -81,11 +81,6 @@ const getRoomHash = (): string => {
   return vue.$store._vm._data.$$state.game.data.roomHash;
 }
 
-const msg = `%c 
-    Script created by gbaranski#5119! 
-    https://github.com/gbaranski/quizizz-cheat
-      `;
-
 
 (async () => {
   console.log(msg, "color: red;");
